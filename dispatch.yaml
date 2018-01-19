@@ -1,0 +1,10 @@
+
+dispatch:
+- url: "*/favicon.ico"
+  module: default
+
+- url: "*/upload*"
+  service: upload
+
+- url: "*/compute*"
+  service: compute
